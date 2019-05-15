@@ -2,7 +2,7 @@
 h1,
 p {font-weight:300}
 
-em {display:block;animation: blinker 1s linear infinite;}
+em {display:block; /*animation: blinker 1s linear infinite;*/}
 button.btn-link,
 a {color:#000;font-weight:500}
 
