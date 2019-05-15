@@ -1,3 +1,19 @@
 @charset "utf-8";
-a {color:#000}
+h1,
+p {font-weight:300}
+
+em {display:block;animation: blinker 1s linear infinite;}
+button.btn-link,
+a {color:#000;font-weight:500}
+
+
+button.btn-link:hover,
 a:hover {color:#303030}
+
+
+@keyframes blinker {
+  25% {
+    opacity: 0.75;
+	 color:#800000;
+  }
+}
