@@ -6,6 +6,7 @@ em {display:block; /*animation: blinker 1s linear infinite;*/}
 button.btn-link,
 a {color:#000;font-weight:500}
 
+ol li {list-style-position: inside;}
 
 button.btn-link:hover,
 a:hover {color:#303030}
