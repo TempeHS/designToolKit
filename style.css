@@ -11,6 +11,8 @@
 }
 }
 
+.addPadding {padding:15px 0}
+
 ol li,
 h1,
 p {font-weight:300}
