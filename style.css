@@ -1,5 +1,16 @@
 @charset "utf-8";
 
+@media (max-width: 991px) {
+.container {
+    max-width: 100vw!important;
+    width:100vw!important;
+    padding-right:0px!important;
+    padding-left:0px!important;
+    margin-right:0px!important;
+    margin-left:0px!important;    
+}
+}
+
 ol li,
 h1,
 p {font-weight:300}
