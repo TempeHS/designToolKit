@@ -15,8 +15,7 @@
 
 ol li,
 h1,
-p {font-weight:300;
-font-size:16;
+p {font-weight:300
 }
 
 em {display:block; /*animation: blinker 1s linear infinite;*/}
