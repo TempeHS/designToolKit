@@ -1,0 +1,19 @@
+1. Create a S3 Bucket
+2. Go to permissions add add this script, changing 'example-bucket' to the name of your S3 bucket
+
+{
+  "Version":"2012-10-17",
+  "Statement":[{
+         "Sid":"PublicReadGetObject",
+        "Effect":"Allow",
+           "Principal": "*",
+      "Action":["s3:GetObject"],
+      "Resource":["arn:aws:s3:::example-bucket/*"
+      ]
+    }
+  ]
+}
+3. Go to properties and in the 'Static Website Hosting Window" enble website hosting and setup your index and error file names. Record the endpoint name as this will be your public URL.
+4. Upload your website files to the S3 Bucket
+5. Visit the endpoint URL (from step 3) to confirm website is live
+6. Add a DNS CNAME record pointing to the endpoint to apply your own domain name.
