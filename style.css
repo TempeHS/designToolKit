@@ -13,9 +13,13 @@
 
 .addPadding {padding:15px 0}
 
+li h5 {
+  font-size: 1.4em;
+}
+
 ol li,
 h1,
-p {font-weight:300
+p, h5, h5 a {font-weight:300
 }
 
 em {display:block; /*animation: blinker 1s linear infinite;*/}
